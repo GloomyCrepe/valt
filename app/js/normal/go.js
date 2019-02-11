@@ -4,7 +4,7 @@ require('@css/normal/code.css')
 require('@css/normal/cursor.css')
 require('@css/normal/normal.css')
 // 配置在一起的日子
-const startTime = '2017/07/10'
+const startTime = '2017/12/31'
 // preload
 document.getElementById('birthday').remove()
 let s1 = require('@img/i-miss-u.png')
@@ -19,13 +19,13 @@ function go () {
     .type('/**', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .type('今天wood先生教你写代码呀', '<span class="note">')
+    .type('今天给你看看我平时写的是什么样子的', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .wait(10)
-    .type('等下。。。', '<span class="note">')
+    .type('bling', '<span class="note">')
     .wait(10)
-    .type('么么哒~o(*≧▽≦)ツ', '<span class="note">', 0)
+    .type('❤', '<span class="note">', 0)
     .wait(10)
     .then(() => {
       memeda()
@@ -55,21 +55,21 @@ function go () {
     .type('0', '<br>')
     // 四个空格
     .type('0000', '<span class="blank">')
-    .type('boy', '<span class="gray">')
+    .type('先生', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'wood'", '<span class="green">')
+    .type("'钱'", '<span class="green">')
     .wait(15)
     .del(6)
-    .type("'洪榕森'", '<span class="green">')
+    .type("'师傅'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     // 珊珊
     .type('0000', '<span class="blank">')
-    .type('girl', '<span class="gray">')
+    .type('女士', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'黄珊珊'", '<span class="green">')
+    .type("'高菲菲'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     // time
